@@ -1,0 +1,22 @@
+{
+  "webpanel_enabled": false,
+  "webpanel_url": "http://localhost:8081/",
+  "tcp_enabled": true,
+  "tcp_port": 6118,
+  "websocket_enabled": true,
+  "websocket_url": "ws://0.0.0.0:81/ws",
+  "zones": [
+    {
+      "zone_name": "morabaraba",
+      "zone_extensions": [
+        "MorabarabaExtension"
+      ],
+      "zone_rooms": [
+        {
+          "room_name": "lobby",
+          "max_users": 100
+        }
+      ]
+    }
+  ]
+}
